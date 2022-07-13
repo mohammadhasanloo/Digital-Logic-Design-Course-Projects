@@ -1,1 +1,1 @@
-# Digital-Logic-Design-Projects
+# Digital-Logic-Design-Course-Projects
