@@ -12,7 +12,7 @@ module my_mux_with_nands_TB();
 		#70 aa=1;dd=0;bb=0;cc=0;ss1=0;ss0=1;
 		//The worst state to make output 1 in this my_mux_with_nands
 		#70 ss0=0;
-		#70 $stop;
+		#70 $finish;
 	end
 
 endmodule

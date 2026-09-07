@@ -25,7 +25,7 @@ module CA5_Q1_QTB();
 		#190 jj = 1;
 		#190 jj = 0;
 		#190 jj = 1;
-		#190 $stop;
+		#190 $finish;
 	end
 
 endmodule

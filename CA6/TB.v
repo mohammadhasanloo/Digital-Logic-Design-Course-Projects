@@ -21,7 +21,7 @@ module CA6_TB();
 		#200 startMul = 1;
 		#200 A = $random;B = $random;
 		#200 startMul = 1;
-		#200 $stop;
+		#200 $finish;
 	end
 
 

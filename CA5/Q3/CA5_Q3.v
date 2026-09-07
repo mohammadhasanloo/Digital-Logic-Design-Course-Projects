@@ -31,7 +31,7 @@ module CA5_Q3_TB();
 		#90 jj = 0;
 		#100 jj = 0;
 		#190 jj = 1;
-		#190 $stop;
+		#190 $finish;
 	end
 
 endmodule

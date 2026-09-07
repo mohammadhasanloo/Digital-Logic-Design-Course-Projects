@@ -20,7 +20,7 @@ module my_mux_with_tri_state_buffer_TB();
 		#50 dd=0;bb=0;aa=0;cc=1;ss1=0;ss0=0;
 		//Worst case to make output 1
 		#50 ss0=1;
-		#50 $stop;
+		#50 $finish;
 	end
 
 endmodule

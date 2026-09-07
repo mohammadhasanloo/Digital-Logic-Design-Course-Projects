@@ -15,7 +15,7 @@ module my_tri_state_buffer_TB();
 		#30 aa=0;
 		//The worst state to make output z
 		#30 enn=0;aa=1;
-		#30 $stop;
+		#30 $finish;
 
 
 

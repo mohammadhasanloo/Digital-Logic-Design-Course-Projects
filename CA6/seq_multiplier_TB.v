@@ -14,6 +14,11 @@ module CA6_seq_multiplier_TB();
 	always #5 clk = ~clk;
 
 	initial begin
+        $dumpfile("sim.vcd");
+        $dumpvars(0, CA6_seq_multiplier_TB);
+    end
+
+    initial begin
 		#20 rst = 1'b1;
 		#20 rst = 1'b0;
 		#200 A = 24'b010000000000000000000000;
@@ -29,7 +34,7 @@ module CA6_seq_multiplier_TB();
 		#600 A = $random;B = $random;
 		#15 startMul = 1'b1;
 		#120 startMul = 1'b0;
-		#200 $stop;
+		#200 $finish;
 	end
 
 

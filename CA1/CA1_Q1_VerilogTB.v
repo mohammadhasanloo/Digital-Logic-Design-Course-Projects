@@ -17,7 +17,7 @@ module my_nand_TB();
 		#20 aa=0;
 		#20 bb=1;
 		#20 aa=1;
-		#20 $stop;
+		#20 $finish;
 	end
 
 endmodule
